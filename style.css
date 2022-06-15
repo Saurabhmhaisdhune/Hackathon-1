@@ -1,0 +1,91 @@
+*{
+    background-color: rgb(245, 255, 155);
+    padding: 0px;
+    margin: 0px;
+}
+#heading{
+    background-color: rgb(175, 241, 219);
+    text-align: center;
+    padding: 15px;
+    font-size: 45px;
+}
+#label{
+    text-align: center;
+}
+#randomName{
+    width: 700px;
+    position: absolute;
+    top: 200px;
+    left: 30%;
+    border-radius: 10px;
+    font-size: 20px;
+}
+#randomName,#button{
+    padding: 25px;
+    background-color: aliceblue; 
+}
+#button{
+    width: 140px;
+    position: absolute;
+    top: 200px;
+    left: 69%; 
+    font-size: 15px;
+    border-radius: 10px;
+}
+#button:hover{
+    cursor: pointer;
+    background-color: rgb(117, 186, 255);
+}
+#label{
+    position: relative;
+    top: 50px;
+    left: 42%;
+    font-size: 30px;
+}
+#randomName:hover{
+    cursor: pointer;
+    background-color: rgb(117, 255, 250);
+}
+#card{
+    text-align: center;
+    position: relative;
+    top: 200px;
+    /* background-image: linear-gradient(to bottom , rgb(92, 63, 63) , rgb(40, 0, 0)); */
+    margin: 55px;
+    border: 10px dashed green;
+    padding:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+@media (max-width: 700px) {
+    .row, .navbar {   
+      flex-direction: column; 
+    }
+  }
+  @media (max-width: 800px) {
+    #randomName{   
+      width: 200px; 
+    }
+}
+    @media (max-width: 800px) {
+        #card{   
+          text-align: center;  
+        }
+    }
+        @media (max-width: 800px) {
+            #button{   
+              width: 80px;
+              position: absolute;
+              top: 280px;
+              left: 41%; 
+              height: 45px;
+              font-size: 15px;
+              padding: 2px;  
+            }
+        }
+            @media (max-width: 800px) {
+                #label{   
+                    position: absolute;
+                    top: 100px;
+                    left: 20%;  
+                }  
+            }
